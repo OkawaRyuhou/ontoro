@@ -1,0 +1,1338 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5/"
+     xml:base="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#出身地 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#出身地"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#順位 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#順位"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#国 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#国">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#Name"></rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#順位の数字 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#順位の数字">
+        <rdfs:comment xml:lang="ja"></rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_Collins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_Collins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_King -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_King">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Alex_Lifeson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Alex_Lifeson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Andy_Summers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Andy_Summers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Angus_Young -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Angus_Young">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#B.B._King -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#B.B._King">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Billy_Gibbons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Billy_Gibbons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bo_Diddley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bo_Diddley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bonnie_Raitt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bonnie_Raitt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Brian_May -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Brian_May">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bruce_Springsteen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bruce_Springsteen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Guy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Guy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Holly -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Holly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carl_Perkins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carl_Perkins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carlos_Santana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carlos_Santana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chet_Atkins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chet_Atkins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カントリー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chuck_Berry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chuck_Berry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Clarence_White -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Clarence_White">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カントリー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Curtis_Mayfield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Curtis_Mayfield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ソウル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dave_Davies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dave_Davies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#David_Gilmour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#David_Gilmour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Derek_Trucks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Derek_Trucks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dick_Dale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dick_Dale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#サーフロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dickey_Betts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dickey_Betts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dimebag_Darrell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dimebag_Darrell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ヘビーメタル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Allman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Allman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Eddy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Eddy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Hazel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Hazel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ファンク"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Van_Halen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Van_Halen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Elmore_James -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Elmore_James">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eric_Clapton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eric_Clapton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Frank_Zappa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Frank_Zappa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Freddie_King -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Freddie_King">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#George_Harrison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#George_Harrison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Hubert_Sumlin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Hubert_Sumlin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#J_Mascis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#J_Mascis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jack_White -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jack_White">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Burton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Burton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カントリー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Hetfield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Hetfield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ヘビーメタル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jeff_Beck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jeff_Beck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jerry_Garcia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jerry_Garcia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimi_Hendrix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimi_Hendrix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimmy_Page -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimmy_Page">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Perry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Perry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Walsh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Walsh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Fahey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Fahey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#フォーク"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Frusciante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Frusciante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lee_Hooker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lee_Hooker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lennon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lennon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_McLaughlin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_McLaughlin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャズ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Marr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Marr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Ramone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Ramone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#パンク・ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Winter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Winter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joni_Mitchel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joni_Mitchel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jonny_Greenwood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jonny_Greenwood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Keith_Richards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Keith_Richards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Kurt_Cobain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Kurt_Cobain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Les_Paul -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Les_Paul">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Leslie_West -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Leslie_West">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lindsey_Buckingham -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lindsey_Buckingham">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Link_Wray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Link_Wray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lou_Reed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lou_Reed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mark_Knopfler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mark_Knopfler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Ronson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Ronson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Taylor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Taylor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Bloomfield -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Bloomfield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Campbell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Campbell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Muddy_Waters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Muddy_Waters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Neil_Young -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Neil_Young">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Nels_Cline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Nels_Cline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャズ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Otis_Rush -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Otis_Rush">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Paul_Simon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Paul_Simon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#フォーク"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Pete_Townshend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Pete_Townshend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Buck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Buck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Green -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Green">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Prince -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Prince">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Randy_Rhoads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Randy_Rhoads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ヘビーメタル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Richard_Thompson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Richard_Thompson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#フォーク"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ritchie_Blackmore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ritchie_Blackmore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robbie_Robertson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robbie_Robertson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robby_Krieger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robby_Krieger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Fripp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Fripp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#プログレッシブ・ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Johnson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Johnson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Roger_McGuinn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Roger_McGuinn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カントリー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ron_Asheton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ron_Asheton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#パンク・ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Rory_Gallagher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Rory_Gallagher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ry_Cooder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ry_Cooder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#フォーク"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Scotty_Moore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Scotty_Moore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Slash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Slash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ヘビーメタル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stephen_Stills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stephen_Stills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Cropper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Cropper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Jones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Jones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#パンク・ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stevie_Ray_Vaughan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stevie_Ray_Vaughan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#T-Bone_Walker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#T-Bone_Walker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#The_Edge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#The_Edge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Thurston_Moore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Thurston_Moore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ノイズロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Morello -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Morello">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Verlaine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Verlaine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tony_Iommi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tony_Iommi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ヘビーメタル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Willie_Nelson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Willie_Nelson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カントリー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カントリー -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カントリー">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#サーフロック -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#サーフロック">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャズ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャズ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャンル -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャンル">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ローリングストーン誌が選ぶ史上最も偉大なギタリスト100人_2011年改訂版"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ソウル -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ソウル">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ノイズロック -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ノイズロック">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ハードロック">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#パンク・ロック -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#パンク・ロック">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ファンク -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ファンク">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャンル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#フォーク -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#フォーク">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャンル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ブルース">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#R&amp;B"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#プログレッシブ・ロック -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#プログレッシブ・ロック">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ヘビーメタル -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ヘビーメタル">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロック">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャンル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ロックンロール">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャンル"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ローリングストーン誌が選ぶ史上最も偉大なギタリスト100人_2011年改訂版 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ローリングストーン誌が選ぶ史上最も偉大なギタリスト100人_2011年改訂版"/>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#R&amp;B -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#R&amp;B">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#ジャンル"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#アメリカ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#アメリカ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_Collins"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_King"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#B.B._King"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Billy_Gibbons"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bo_Diddley"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bonnie_Raitt"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bruce_Springsteen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Guy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Holly"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carl_Perkins"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chet_Atkins"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chuck_Berry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Clarence_White"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Curtis_Mayfield"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Derek_Trucks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dick_Dale"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dickey_Betts"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dimebag_Darrell"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Allman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Eddy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Hazel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Van_Halen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Elmore_James"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Frank_Zappa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Freddie_King"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Hubert_Sumlin"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#J_Mascis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jack_White"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Burton"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Hetfield"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jerry_Garcia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimi_Hendrix"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Perry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Walsh"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Fahey"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Frusciante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lee_Hooker"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Ramone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Winter"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Kurt_Cobain"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Les_Paul"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Leslie_West"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lindsey_Buckingham"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Link_Wray"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lou_Reed"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Bloomfield"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Campbell"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Muddy_Waters"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Nels_Cline"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Otis_Rush"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Paul_Simon"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Buck"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Prince"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Randy_Rhoads"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robby_Krieger"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Johnson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Roger_McGuinn"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ron_Asheton"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ry_Cooder"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Scotty_Moore"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stephen_Stills"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Cropper"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stevie_Ray_Vaughan"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#T-Bone_Walker"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Thurston_Moore"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Morello"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Verlaine"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Willie_Nelson"/>
+        <untitled-ontology-5:国></untitled-ontology-5:国>
+        <rdfs:comment xml:lang="ja"></rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#イギリス -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#イギリス">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Andy_Summers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Angus_Young"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Brian_May"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dave_Davies"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#David_Gilmour"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eric_Clapton"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#George_Harrison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jeff_Beck"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimmy_Page"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lennon"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_McLaughlin"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Marr"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jonny_Greenwood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Keith_Richards"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mark_Knopfler"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Ronson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Taylor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Pete_Townshend"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Green"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Richard_Thompson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ritchie_Blackmore"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Fripp"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Rory_Gallagher"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Slash"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Jones"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#The_Edge"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tony_Iommi"/>
+        <untitled-ontology-5:国></untitled-ontology-5:国>
+        <rdfs:comment xml:lang="ja"></rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カナダ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#カナダ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Alex_Lifeson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joni_Mitchel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Neil_Young"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robbie_Robertson"/>
+        <untitled-ontology-5:国></untitled-ontology-5:国>
+        <rdfs:comment xml:lang="ja"></rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#メキシコ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#メキシコ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carlos_Santana"/>
+        <untitled-ontology-5:国></untitled-ontology-5:国>
+        <rdfs:comment xml:lang="ja"></rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#100~91位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#100~91位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Alex_Lifeson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bruce_Springsteen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dave_Davies"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dimebag_Darrell"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lindsey_Buckingham"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Paul_Simon"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Buck"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Roger_McGuinn"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Jones"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Thurston_Moore"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#10~1位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#10~1位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#B.B._King"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chuck_Berry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Allman"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Van_Halen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eric_Clapton"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jeff_Beck"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimi_Hendrix"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jimmy_Page"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Keith_Richards"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Pete_Townshend"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#20~11位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#20~11位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_King"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carlos_Santana"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#David_Gilmour"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Derek_Trucks"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Freddie_King"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#George_Harrison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Burton"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Les_Paul"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Neil_Young"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stevie_Ray_Vaughan"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#30~21位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#30~21位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Angus_Young"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bo_Diddley"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Brian_May"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Guy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Chet_Atkins"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Elmore_James"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Frank_Zappa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Ramone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Scotty_Moore"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tony_Iommi"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#40~31位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#40~31位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Billy_Gibbons"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Curtis_Mayfield"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lee_Hooker"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Taylor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Prince"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Randy_Rhoads"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ry_Cooder"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Steve_Cropper"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#The_Edge"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Morello"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#50~41位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#50~41位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Hubert_Sumlin"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jerry_Garcia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jonny_Greenwood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Link_Wray"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mark_Knopfler"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mick_Ronson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Bloomfield"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Muddy_Waters"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ritchie_Blackmore"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Stephen_Stills"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#60~51位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#60~51位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Albert_Collins"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Clarence_White"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Walsh"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Lennon"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Marr"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Otis_Rush"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Peter_Green"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robbie_Robertson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Ron_Asheton"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Rory_Gallagher"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#70~61位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#70~61位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dickey_Betts"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Duane_Eddy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Jack_White"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_McLaughlin"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Johnny_Winter"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Leslie_West"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Richard_Thompson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Fripp"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Slash"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#T-Bone_Walker"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#80~71位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#80~71位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Buddy_Holly"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Dick_Dale"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Fahey"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#John_Frusciante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joni_Mitchel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Kurt_Cobain"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Mike_Campbell"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robby_Krieger"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Robert_Johnson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Willie_Nelson"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#90~81位 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#90~81位">
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Andy_Summers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Bonnie_Raitt"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Carl_Perkins"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Eddie_Hazel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#J_Mascis"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#James_Hetfield"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Joe_Perry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Lou_Reed"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Nels_Cline"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/teslakite/ontologies/2023/6/untitled-ontology-5#Tom_Verlaine"/>
+        <untitled-ontology-5:順位の数字></untitled-ontology-5:順位の数字>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

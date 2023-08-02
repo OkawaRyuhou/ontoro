@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#オプション -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#オプション"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#産地 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#産地">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#産地共通"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#産地共通 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#産地共通"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#is-acidity-of -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#is-acidity-of">
+        <rdfs:comment>酸味の度合い</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#is-body-of -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#is-body-of">
+        <rdfs:comment>コクの深さ</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ANNIVERSARY2021BLEND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ANNIVERSARY2021BLEND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#CHRISTMAS_BLEND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#CHRISTMAS_BLEND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#FALL_BLEND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#FALL_BLEND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#HOLIDAY_SEASON_BLEND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#HOLIDAY_SEASON_BLEND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ICED_COFFEE_BLEND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ICED_COFFEE_BLEND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#INDONESIA_WEST_JAVA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#INDONESIA_WEST_JAVA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#KATI_KATI_BLEND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#KATI_KATI_BLEND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#PAPUA_NEW_GUINEA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#PAPUA_NEW_GUINEA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SPRINGSSEASON -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SPRINGSSEASON">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SYARBUCKS_THREE_REGION_BREND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SYARBUCKS_THREE_REGION_BREND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#TOKYOロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#TOKYOロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ウィローブレンド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ウィローブレンド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブロンドロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エスプレッソロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エスプレッソロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エチオピア -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エチオピア">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#カフェベロナ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#カフェベロナ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#グアテマラアンティグマ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#グアテマラアンティグマ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ケニア -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ケニア">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コアコーヒー -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コアコーヒー">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スターバックス"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コモドドラゴンブレンド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コモドドラゴンブレンド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コロンビア -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コロンビア">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#サイレントブレンド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#サイレントブレンド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スターバックス -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スターバックス"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スマトラ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スマトラ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コアコーヒー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ハウスブレンド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ハウスブレンド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#パイクプレスロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#パイクプレスロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フェアトレードイタリアンロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フェアトレードイタリアンロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フレンチロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フレンチロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ダークロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブレイクファーストブレンド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブレイクファーストブレンド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブロンドロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブロンドロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コアコーヒー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミディアムロースト">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コアコーヒー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ライトノートブレンド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ライトノートブレンド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブロンドロースト"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#期間限定ブレンド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スターバックス"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アイス -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アイス">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ANNIVERSARY2021BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#CHRISTMAS_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#FALL_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#HOLIDAY_SEASON_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ICED_COFFEE_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#INDONESIA_WEST_JAVA"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#KATI_KATI_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#PAPUA_NEW_GUINEA"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SPRINGSSEASON"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SYARBUCKS_THREE_REGION_BREND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#TOKYOロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ウィローブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エスプレッソロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エチオピア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#カフェベロナ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#グアテマラアンティグマ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ケニア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コモドドラゴンブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コロンビア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#サイレントブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スマトラ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ハウスブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#パイクプレスロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フェアトレードイタリアンロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フレンチロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブレイクファーストブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ライトノートブレンド"/>
+        <オプション rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ホット"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アフリカ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アフリカ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エチオピア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ケニア"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#マルチリージョン"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ラテンアメリカ"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アジア/太平洋"/>
+        <is-acidity-of>酸味レベル５</is-acidity-of>
+        <is-body-of>コクレベル２</is-body-of>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ディカフェ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ディカフェ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ハウスブレンド"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ホット -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ホット">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ANNIVERSARY2021BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#CHRISTMAS_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#FALL_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#HOLIDAY_SEASON_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ICED_COFFEE_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#INDONESIA_WEST_JAVA"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#KATI_KATI_BLEND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#PAPUA_NEW_GUINEA"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SPRINGSSEASON"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#SYARBUCKS_THREE_REGION_BREND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#TOKYOロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ウィローブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エスプレッソロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エチオピア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#カフェベロナ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#グアテマラアンティグマ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ケニア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コモドドラゴンブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コロンビア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#サイレントブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スマトラ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ハウスブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#パイクプレスロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フェアトレードイタリアンロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フレンチロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブレイクファーストブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ライトノートブレンド"/>
+        <オプション rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アイス"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#マルチリージョン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#マルチリージョン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#TOKYOロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ウィローブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エスプレッソロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#カフェベロナ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#サイレントブレンド"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アフリカ"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#マルチリージョン"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ラテンアメリカ"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アジア/太平洋"/>
+        <産地共通 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アフリカ"/>
+        <産地共通 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ラテンアメリカ"/>
+        <is-acidity-of>酸味レベル４</is-acidity-of>
+        <is-body-of>コクレベル５</is-body-of>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミルク -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ミルク">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#エスプレッソロースト"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ラテンアメリカ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ラテンアメリカ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#グアテマラアンティグマ"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コロンビア"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ハウスブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#パイクプレスロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フェアトレードイタリアンロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#フレンチロースト"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ブレイクファーストブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ライトノートブレンド"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アフリカ"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#マルチリージョン"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ラテンアメリカ"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アジア/太平洋"/>
+        <is-acidity-of>酸味レベル３</is-acidity-of>
+        <is-body-of>コクレベル３</is-body-of>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アジア/太平洋 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アジア/太平洋">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#コモドドラゴンブレンド"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#スマトラ"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#アフリカ"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#マルチリージョン"/>
+        <産地 rdf:resource="http://www.semanticweb.org/akira.s/ontologies/2022/6/untitled-ontology-8#ラテンアメリカ"/>
+        <is-acidity-of>酸味レベル２</is-acidity-of>
+        <is-body-of>コクレベル５</is-body-of>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
